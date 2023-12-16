@@ -2,7 +2,7 @@
     padding:0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'DMSans', sans-serif;
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
@@ -15,10 +15,7 @@
      --secound-bg-color: #333333;
      --text-color: #F9F9F9;
      --secound-color: #828282;
-     --main-color: #00DF5E;
-     --gig-font: 5.3rem;
-     --h2-font: 4.2rem;
-     --p-font: 1.1rem;
+     --main-color: #00DF5E;     
 }
 
 body
@@ -40,7 +37,7 @@ header
     align-items: center;
     justify-content: space-between;
     background: transparent;
-    padding: 25px 15%;
+    padding: 35px 150px;
     transition-duration: .3s;
 
 }
@@ -48,7 +45,7 @@ header
 .logo
 {
     color: var(--text-color);
-    font-size: 30px;
+    font-size: 36px;
     font-weight: bold;
     letter-spacing: 1px;
     
@@ -69,18 +66,58 @@ header
 {
     color: var(--text-color);
     font-weight: bold;
-    font-size: 1rem;
-    padding:10px 20px;
+    font-size: 18px;
+    padding:40px 45px;
 }
 
 #menu-icon
 {
-    font-size: 32px;
+    font-size: 18px;
     color: var(--text-color);
     z-index: 10001;
     cursor: pointer;
     display: none;
 }
+
+.section
+{
+    padding: 120px 20%;
+}
+
+.home
+{
+    height: 100vh;
+    width: 100vw;
+    background: url();
+    background-size: cover;
+    background-position: 15rem;
+    position: relative;
+    display: grid;
+    grid-template-columns:repeat(1, 1fr) ;
+    align-items: center; 
+}
+
+.home-text h1
+{
+    margin: 20px 150px;
+    font-size: 36px;
+    
+}
+
+
+.home-text h3
+{
+    margin: 20px 150px 20px;
+    font-size: 18px;
+    color: var(--secound-color);    
+}
+
+
+
+
+
+
+
 
 
 
