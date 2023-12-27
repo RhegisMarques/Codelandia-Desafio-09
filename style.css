@@ -125,5 +125,56 @@ header
   @media (max-width: 420px) {
       
     
+    header
+    {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        right: 0;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: transparent;
+        padding: 35px 150px;
+        transition-duration: .3s;
+    
+    }
 
+    
+.logo
+{
+    color: var(--text-color);
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+
+}
+
+.navbar
+{
+    display: flex;
+}
+
+.navbar li
+{
+    position: relative;
+}
+
+.navbar a
+{
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 18px;
+    padding:40px 45px;
+}
+
+#menu-icon
+{
+    font-size: 18px;
+    color: var(--text-color);
+    z-index: 10001;
+    cursor: pointer;
+    
 }
