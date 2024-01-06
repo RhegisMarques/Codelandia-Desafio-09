@@ -21,18 +21,15 @@ body {
     width: '';
     background: var(--bg-color);
     color: var(--text-color);
-
+    padding: 35px 150px;
 }
 
-header {
-    position: fixed;
-    width: 100%;    
-    z-index: 1000;
+header {   
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: transparent;
-    padding: 35px 150px;
+    
     transition-duration: .3s;
 
 }
@@ -47,7 +44,7 @@ header {
 }
 
 .navbar {
-    display: flex;
+    display: flex;   
 }
 
 .navbar li {
@@ -57,43 +54,25 @@ header {
 .navbar a {
     color: var(--text-color);
     font-weight: bold;
-    font-size: 18px;
-    padding: 40px 45px;
+    font-size: 18px;    
 }
 
-#menu-icon {
-    font-size: 18px;
-    color: var(--text-color);
-    z-index: 10001;
-    cursor: pointer;
-    display: none;
-}
 
 .section {
     padding: 120px 20%;
 }
 
-.home {    
-    width: 300px;
-    height: 255px;
-    background: url("/img/undraw_Lost_online.svg");
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    align-items: center;
-}
 
-.home-text h1 {
-    margin: 20px 150px;
+
+.home-text h1 {  
     font-size: 36px;
+    margin: 20px 0px 20px;
 
 }
 
 
 .home-text h3 {
-    margin: 20px 150px 20px;
+    margin: 20px 0px 20px;
     font-size: 18px;
     color: var(--secound-color);
 }
@@ -128,59 +107,4 @@ header {
     transition: ease .35s;
     border: 2px solid var(--secound-color);
     background: transparent;  
-}
-
-@media (max-width: 420px) {
-
-
-    header {
-        position: fixed;
-        width: 100%;
-        top: 0;
-        right: 0;
-        z-index: 1000;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background: transparent;
-        padding: 15px 10px;
-        transition-duration: .3s;
-        font-size: 16px;
-
-    }
-
-
-    .logo {
-        color: var(--text-color);
-        font-size: 16px;
-        font-weight: bold;
-        letter-spacing: 1px;
-
-
-    }
-
-    .navbar {
-        display: flex;
-        font-size: 16px;
-    }
-
-    .navbar li {
-        position: relative;
-    }
-
-    .navbar a {
-        color: var(--text-color);
-        font-weight: bold;
-        font-size: 12px;
-        padding: 40px 45px;
-    }
-
-    #menu-icon {
-        font-size: 12px;
-        color: var(--text-color);
-        z-index: 10001;
-        cursor: pointer;
-
-    }
-
 }
