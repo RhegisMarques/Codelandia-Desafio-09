@@ -166,43 +166,60 @@ span {
 .about {
     align-items: center;
     text-align: center;
-
 }
 
 .about-text h2 {
     font-size: var(--h2-font);
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
     font-weight: 700;
     line-height: 42px;
 }
 
+
 .about-text p {
     color: var(--third-color);
     letter-spacing: 1px;
-    line-height: 32px;    
+    line-height: 32px;
     font-size: var(--p-font);
     margin-bottom: 45px;
-   
 }
 
-.about-social{
-    display: grid;    
-    grid-gap: 2rem;
+.about-social {    
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 4.5rem;
+    margin-top: 85px;
 }
 
-.about-row{
-    background: var(--third-bg-color);    
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all .35s;
+.about-row h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: var(--text-color);
 }
 
-.about-row i{
+.about-row p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: var(--third-color);
+
+}
+
+.about-row i {
+    width: 62px;    
+    margin-bottom: 20px;   
     color: var(--main-color);
-    margin-bottom: 20px;
-    font-size: 2.7rem;
+    font-size: 2.2rem;  
+    background-image: url("/img/Ellipse.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+
+    
 }
 
 
@@ -223,7 +240,7 @@ span {
     font-size: var(--p-font);
 }
 
-.service-content {
+.projects-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(370px, auto));
     grid-gap: 2rem;
@@ -262,7 +279,7 @@ span {
     transform: translateY(-8px);
 }
 
-.contact {
+.service {
     background: var(--bg-color);
     display: grid;
     grid-template-columns: repeat(2, 2fr);
@@ -271,81 +288,29 @@ span {
 
 }
 
-.contact-img img {
-    max-width: 100%;
-    width: 700px;
-    height: auto;
-    border-radius: 10px;
+.service-content{
 
 }
 
-.contact-form h2 {
-    font-size: var(--h2-font);
-    margin-bottom: 15px;
-}
-
-.contact-form p {
-    color: var(--secound-color);
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: var(--p-font);
-    margin-bottom: 4.1rem;
+.skills{
 
 }
 
-.contact-form form {
-    position: relative;
+.skill-content{
 
-}
-
-.contact-form form input,
-form textarea {
-    width: 100%;
-    padding: 20px;
-    border: none;
-    outline: none;
-    background: var(--secound-bg-color);
-    color: var(--text-color);
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    border-radius: 10px;
-    margin: 10px;
-}
-
-.contact-form textarea {
-
-    resize: none;
-    height: 200px;
-}
-
-.contact-form form .send {
-    display: inline-block;
-    background: var(--main-color);
-    color: var(--text-color);
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 25px;
-    width: 200px;
-    transition: ease .35s;
-    text-transform: uppercase;
-}
-
-.contact-form form .send:hover {
-    transform: translateY(-8px);
-    cursor: pointer;
 }
 
 .footer {
     text-align: center;
-    background: var(--secound-bg-color);
-    padding: 34px;
+    background: var(--third-bg-color);
+   padding: 20px 0;
 
 }
 
 .footer p {
-    font-size: 17px;
-    color: var(--secound-color);
-    letter-spacing: 1px;
+    font-size: 16px;
+    color: var(--third-color);
+    font-weight: 400;
 }
 
 @media (max-width:1270px) {
