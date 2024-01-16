@@ -157,7 +157,7 @@ span {
 .about {
   align-items: center;
   text-align: center;
-  padding: 45px 12%;
+ 
 }
 
 .about-text h2 {
@@ -207,12 +207,11 @@ span {
 }
 
 .about-row i {
-  width: 62px;
-  height: 62px;
-  margin: 0;
+  width: 82px;
+  height: 82px; 
   margin-bottom: 20px;
   color: var(--main-color);
-  font-size: 2.2rem;
+  font-size: 3.9rem;
   background-image: url("/img/Ellipse.svg");
   background-size: cover;
   background-repeat: no-repeat;
