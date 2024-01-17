@@ -157,33 +157,33 @@ span {
 .about {
   align-items: center;
   text-align: center;
- 
+  
+
 }
 
 .about-text h2 {
   font-size: var(--h2-font);
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  margin-bottom: 20px;
-  font-weight: 700;
-  line-height: 42px;
+  color: var(--h2-text-color);
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 30px;
 }
 
 .about-text p {
+ 
   color: var(--third-color);
-  letter-spacing: 1px;
+  text-align: center;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  font-size: var(--p-font);
-  margin-bottom: 45px;
+  
 }
 
 .about-social {
-  padding: 45px 12%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -207,16 +207,18 @@ span {
 }
 
 .about-row i {
-  width: 82px;
-  height: 82px; 
-  margin-bottom: 20px;
+  width: 60px;
+  height: 60px;
+  background: #212121;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+  font-size: 30px;
   color: var(--main-color);
-  font-size: 3.9rem;
-  background-image: url("/img/Ellipse.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
+  margin-right: 25px;
+  margin-left: 25px;
+  transition: all 0.45s ease-in
 }
 
 .center {
@@ -301,14 +303,11 @@ span {
   grid-gap: 3rem;
 }
 
-.service-content {
-}
+.service-content {}
 
-.skills {
-}
+.skills {}
 
-.skill-content {
-}
+.skill-content {}
 
 .footer {
   text-align: center;
