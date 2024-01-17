@@ -207,17 +207,18 @@ span {
 }
 
 .about-row i {
-  width: 60px;
-  height: 60px;
+  width: 62px;
+  height: 62px;
   background: #212121;
   display: inline-flex;
   align-items: center;
   border-radius: 50%;
   justify-content: center;
-  font-size: 30px;
+  font-size: 32px;
   color: var(--main-color);
   margin-right: 25px;
   margin-left: 25px;
+  margin-bottom: 19px;
   transition: all 0.45s ease-in
 }
 
