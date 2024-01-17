@@ -244,8 +244,8 @@ span {
 
 .projects-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
-  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(370px, auto));
+  grid-gap: 3rem;
   align-items: center;
   margin-top: 4.5rem;
 }
@@ -267,12 +267,6 @@ span {
   border: 1px solid #333;
   background: #171717;
   margin: 20px 25px;
-}
-
-.row i {
-  color: var(--main-color);
-  margin-bottom: 20px;
-  font-size: 2.7rem;
 }
 
 .row h3 {
