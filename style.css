@@ -22,10 +22,11 @@
   scroll-padding-top: 3.5rem;
 }
 
-body {
+body {  
   background: var(--bg-color);
   color: var(--text-color);
-  padding: 45px 12%;
+  width: 100%;
+  
 }
 
 header {
@@ -38,7 +39,6 @@ header {
   align-items: center;
   justify-content: space-between;
   background: transparent;
-  padding: 35px 10%;
   transition-duration: 0.4s;
   padding: 45px 12%;
 }
@@ -97,22 +97,23 @@ section {
 }
 
 .home {
-  padding: 45px 12%;
-  height: 100vh;
   width: 100%;
-  background-image: url("/img/undraw_Lost_online.svg");
-  background-repeat: no-repeat;
-  background-position: right;
-  display: grid;
-  align-items: center;
-  grid-template-columns: repeat(1, 1fr);
-  margin: 0;
-  padding: 0;
+  height: 100vh;  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+  padding: 250px 12%;
+  
 }
+
 
 .home-text h1 {
   margin: 20px 0px 20px;
   font-size: var(--gig-font);
+}
+
+.home-text a {
+  margin-right : 15px;
 }
 
 span {
@@ -155,39 +156,39 @@ span {
 }
 
 .about {
-  align-items: center;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  padding: 70px 25%;
   
-
 }
 
 .about-text h2 {
   font-size: var(--h2-font);
   color: var(--h2-text-color);
-    text-align: center;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding-bottom: 30px;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 30px;
 }
 
 .about-text p {
- 
   color: var(--third-color);
-  text-align: center;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  
 }
 
 .about-social {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin-top: 85px;
+  margin-bottom:127px;
 }
 
 .about-row h3 {
@@ -207,8 +208,8 @@ span {
 }
 
 .about-row i {
-  width: 62px;
-  height: 62px;
+  width: 65px;
+  height: 65px;
   background: #212121;
   display: inline-flex;
   align-items: center;
@@ -219,7 +220,7 @@ span {
   margin-right: 25px;
   margin-left: 25px;
   margin-bottom: 19px;
-  transition: all 0.45s ease-in
+  transition: all 0.45s ease-in;
 }
 
 .center {
@@ -242,39 +243,41 @@ span {
   font-size: var(--p-font);
 }
 
+.projects{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 45px 12%;
+  margin:0 auto;
+
+}
 .projects-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(370px, auto));
-  grid-gap: 3rem;
-  align-items: center;
-  margin-top: 4.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  grid-gap: 45px;  
+  margin-top: 30px;
 }
 
 .row {
   background: var(--third-bg-color);
   border: 1px solid #333;
-  width: 350px;
-  height: 240px;
-  flex-shrink: 0;
-  margin: 20px 25px;
+  padding: 25px 7%;
   cursor: pointer;
   transition: all 0.35s;
 }
 
 .retangulo {
-  width: 300px;
-  height: 130px;
+  padding: 60px 12%;
   border: 1px solid #333;
   background: #171717;
-  margin: 20px 25px;
+  margin-bottom: 23px;
 }
 
 .row h3 {
   color: var(--text-color);
   font-size: 22px;
   font-weight: 500;
-  margin-bottom: 15px;
-  margin-left: 25px;
+  margin-bottom: 6px;
 }
 
 .row p {
@@ -283,7 +286,6 @@ span {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-left: 25px;
 }
 
 .row:hover {
@@ -298,11 +300,14 @@ span {
   grid-gap: 3rem;
 }
 
-.service-content {}
+.service-content {
+}
 
-.skills {}
+.skills {
+}
 
-.skill-content {}
+.skill-content {
+}
 
 .footer {
   text-align: center;
