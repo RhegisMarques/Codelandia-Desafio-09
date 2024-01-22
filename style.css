@@ -26,27 +26,34 @@ body {
   background: var(--bg-color);
   color: var(--text-color);
   width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  
+  
   
 }
 
 header {
   position: fixed;
   width: 100%;
-  top: 0;
-  right: 0;
+  max-width: 1440px;  
   z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: transparent;
-  transition-duration: 0.4s;
-  padding: 45px 12%;
+  transition-duration: 0.4s;  
+  margin: 0 auto;
+  padding: 35px 9%;
+  
 }
 
-header.sticky {
-  padding: 10px 12%;
+header.sticky {       
+  padding: 10px 9%;
   background: var(--secound-bg-color);
+  margin: 0 auto;
 }
+
 
 .logo {
   color: var(--text-color);
@@ -67,7 +74,7 @@ header.sticky {
   color: var(--text-color);
   font-weight: bold;
   font-size: 18px;
-  padding: 10px 10px;
+  padding: 10px;
 }
 
 .navbar a::after {
@@ -81,7 +88,7 @@ header.sticky {
 }
 
 .navbar a:hover ::after {
-  width: 100%;
+  width: 100%;  
 }
 
 #menu-icon {
@@ -93,7 +100,7 @@ header.sticky {
 }
 
 section {
-  padding: 120px 15%;
+  padding: 120px 12%;
 }
 
 .home {
@@ -153,6 +160,10 @@ span {
 .btn2:hover {
   border: 1px solid var(--main-color);
   background: transparent;
+}
+
+.home-image {
+
 }
 
 .about {
@@ -311,7 +322,7 @@ span {
 .footer {
   text-align: center;
   background: var(--third-bg-color);
-  padding: 20px 0;
+  padding: 20px 0%;
 }
 
 .footer p {
