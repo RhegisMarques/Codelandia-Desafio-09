@@ -42,16 +42,15 @@ header {
   align-items: center;
   justify-content: space-between;
   background: transparent;
-  transition-duration: 0.4s;  
+  transition-duration: 0.5s;  
   margin: 0 auto;
   padding: 35px 9%;
   
 }
 
 header.sticky {       
-  padding: 10px 9%;
-  background: var(--secound-bg-color);
-  margin: 0 auto;
+  padding: 20px 9%;
+  background: var(--secound-bg-color);  
 }
 
 
@@ -140,6 +139,8 @@ span {
   border: 1px solid transparent;
   font-weight: 500;
   padding: 13px 30px;
+  transition-duration: 0.5s; 
+  
 }
 
 .btn:hover {
@@ -155,6 +156,7 @@ span {
   border: 1px solid var(--secound-bg-color);
   font-weight: 500;
   padding: 13px 30px;
+  transition-duration: 0.5s; 
 }
 
 .btn2:hover {
@@ -199,6 +201,7 @@ span {
   align-items: center;
   margin-top: 85px;
   margin-bottom:127px;
+  
 }
 
 .about-row h3 {
@@ -230,7 +233,12 @@ span {
   margin-right: 25px;
   margin-left: 25px;
   margin-bottom: 19px;
-  transition: all 0.45s ease-in;
+  transition: all 0.4s ease-in;
+  cursor: pointer;
+}
+
+.about-row i:hover {  
+  transform: translateY(-8px);
 }
 
 .center {
