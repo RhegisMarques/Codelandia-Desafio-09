@@ -192,7 +192,6 @@ span {
   align-items: center;
   margin-top: 85px;
   margin-bottom: 127px;
-  
 }
 
 .about-row h3 {
@@ -381,18 +380,52 @@ span {
     padding: 80px 4%;
     transition: 0.2s;
   }
-
-  :root {
-    --gig-font: 4.8rem;
-    --h2-font: 3.8rem;
-    --p-font: 1rem;
-    transition: 0.2s;
-  }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 420px) {
+  .logo {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
   .home {
     height: 85vh;
+  }
+
+  .home-img {
+    display: none;
+  }
+
+  .home-text h1 {
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .home-text h3 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .btn {
+    padding: 8px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+
+  .btn2 {
+    padding: 8.366px 12.55px;
+    justify-content: center;
+    align-items: center;
+    gap: 6.972px;
+    flex-shrink: 0;
   }
 
   #menu-icon {
@@ -408,7 +441,6 @@ span {
     text-align: right;
     background: var(--bg-color);
     transition: all.30s;
-    text-decoration: none;
   }
 
   .navbar a {
@@ -435,14 +467,4 @@ span {
   .about {
     grid-template-columns: 1fr;
   }
-
-  
-
-
- 
-
- 
-
- 
-  
 }
