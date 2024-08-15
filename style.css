@@ -90,27 +90,157 @@ header {
     display: none;
   }
 
-  main {
-    display: flex;
-    flex-direction: column;
 
-    .main-top {
-      background: #124C5F0D;
+}
 
-      img{
-        width: 399.48px;
-          height: 394px;
-          gap: 0px;
-          opacity: 0px;
-      }
-    }
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.main-top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #124C5F0D;
 
+  img {
+    width: 390px;
+    margin-bottom: 14px;
+  }
+
+  .group-text {
+    gap: 24px;
+
+  }
+
+  h2 {
+    width: 311px;
+    height: 58px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Pangolin;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  p {
+    width: 311px;
+    height: 120px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  button {
+    width: 168px;
+    height: 48px;
+    padding: 16px 32px;
+    gap: 40px;
+    border-radius: 5px 5px;
+    border: none;
+    background: #124C5F;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 80px;
   }
 
 
 
+}
+
+.main-down {
+
+  padding: 80px 32px;
 
 
+  .list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 
+  }
+
+  .card {
+    width: 311px;
+    height: 600px;
+    gap: 40px;
+  }
+
+  .text-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    h2 {
+      font-family: Pangolin;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 29.98px;
+      text-align: left;
+    }
+
+    p {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22.4px;
+      text-align: left;
+    }
+  }
+
+  button {
+    padding: 16px 32px;
+    gap: 40px;
+    border-radius: 5px 5px;
+    border: none;
+    background: #124C5F;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+
+
+  }
+}
+
+footer {
+  height: 100px;
+  background: #124C5F0D;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29.98px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+
+  header {
+    width: 100%;
+    height: 557px;
+  }
 }
